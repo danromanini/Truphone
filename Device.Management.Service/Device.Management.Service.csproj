@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Device.Management.Common\Device.Management.Common.csproj" />
+    <ProjectReference Include="..\Device.Management.Repository\Device.Management.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
